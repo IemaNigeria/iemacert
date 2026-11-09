@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 100" width="268" height="100">
+  <!-- Solid Red Background Box (matching user's uploaded logo) -->
+  <rect width="268" height="100" fill="#EE2A2B" />
+  
+  <!-- Letter 'i' (x=24..36) -->
+  <rect x="24" y="20" width="12" height="60" fill="#FFFFFF" />
+  
+  <!-- Letter 'e' (x=48..100) -->
+  <rect x="48" y="20" width="12" height="60" fill="#FFFFFF" />
+  <rect x="48" y="20" width="52" height="12" fill="#FFFFFF" />
+  <rect x="48" y="44" width="52" height="12" fill="#FFFFFF" />
+  <rect x="48" y="68" width="52" height="12" fill="#FFFFFF" />
+  <rect x="88" y="20" width="12" height="36" fill="#FFFFFF" />
+  
+  <!-- Letter 'm' (x=112..180) -->
+  <rect x="112" y="20" width="68" height="12" fill="#FFFFFF" />
+  <rect x="112" y="20" width="12" height="60" fill="#FFFFFF" />
+  <rect x="140" y="20" width="12" height="60" fill="#FFFFFF" />
+  <rect x="168" y="20" width="12" height="60" fill="#FFFFFF" />
+  
+  <!-- Letter 'a' (x=192..244) -->
+  <rect x="232" y="20" width="12" height="60" fill="#FFFFFF" />
+  <rect x="192" y="20" width="52" height="12" fill="#FFFFFF" />
+  <rect x="192" y="44" width="52" height="12" fill="#FFFFFF" />
+  <rect x="192" y="68" width="52" height="12" fill="#FFFFFF" />
+  <rect x="192" y="44" width="12" height="36" fill="#FFFFFF" />
+</svg>

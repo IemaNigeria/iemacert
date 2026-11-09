@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="500" height="240">
+    <rect width="500" height="240" fill="#FFFFFF"/>
+    <g transform="translate(35, 30)">
+      <!-- 4 Slanted Red Blocks for B - O - N - O -->
+      <!-- B -->
+      <polygon points="25,10 95,10 65,115 -5,115" fill="#E31B23"/>
+      <text x="45" y="93" text-anchor="middle" font-family="'Inter', 'Arial Black', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">B</text>
+
+      <!-- O -->
+      <polygon points="110,10 180,10 150,115 80,115" fill="#E31B23"/>
+      <text x="130" y="93" text-anchor="middle" font-family="'Inter', 'Arial Black', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">O</text>
+
+      <!-- N -->
+      <polygon points="195,10 265,10 235,115 165,115" fill="#E31B23"/>
+      <text x="215" y="93" text-anchor="middle" font-family="'Inter', 'Arial Black', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">N</text>
+
+      <!-- O -->
+      <polygon points="280,10 350,10 320,115 250,115" fill="#E31B23"/>
+      <text x="300" y="93" text-anchor="middle" font-family="'Inter', 'Arial Black', sans-serif" font-size="82" font-weight="900" fill="#FFFFFF">O</text>
+
+      <!-- ENERGY Text beneath right side -->
+      <text x="330" y="165" text-anchor="end" font-family="'Inter', 'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#1A1A1A" letter-spacing="3">ENERGY</text>
+    </g>
+  </svg>

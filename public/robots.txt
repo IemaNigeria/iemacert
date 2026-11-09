@@ -1,0 +1,12 @@
+# Robots.txt for IEMA Standards Limited
+# Website: https://www.iemacert.com
+
+User-agent: *
+Allow: /
+
+# Disallow private backend / CRM admin endpoints
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://www.iemacert.com/sitemap.xml

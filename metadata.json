@@ -1,0 +1,8 @@
+{
+  "name": "Remix IEMA Standards Limited - ISO Certification, Testing \u0026 Compliance",
+  "description": "Official website for IEMA Standards Limited providing ISO management system certifications, material testing, industrial inspection, environmental consultancy, AML compliance, and online certificate verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

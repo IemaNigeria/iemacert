@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- NNPC Official Origami / Folded Ribbon Geometric Logo and Wordmark -->
+  <g transform="translate(10, 10)">
+    <!-- Yellow Left Fold -->
+    <polygon 
+      points="65,150 95,120 95,225 65,255" 
+      fill="#E6BE00" 
+    />
+    
+    <!-- Deep Forest Green Top-Back Fold -->
+    <polygon 
+      points="95,120 190,150 190,255 95,225" 
+      fill="#1B663E" 
+    />
+    
+    <!-- Bright Vibrant Emerald Green Lower-Front Triangle -->
+    <polygon 
+      points="95,225 190,150 190,255" 
+      fill="#009A44" 
+    />
+    
+    <!-- Bold Red Base Fold -->
+    <polygon 
+      points="65,255 160,285 160,250 95,225" 
+      fill="#E30613" 
+    />
+
+    <!-- NNPC Typography Wordmark -->
+    <g transform="translate(200, 255)">
+      <text 
+        x="0" 
+        y="0" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-weight="900" 
+        font-size="82" 
+        letter-spacing="-1.5" 
+        fill="#555555"
+      >NNPC</text>
+    </g>
+  </g>
+</svg>

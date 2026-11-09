@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280">
+    <rect width="500" height="280" fill="#FFFFFF"/>
+    <g transform="translate(30, 20)">
+      <!-- Top ECG line connecting into Medical -->
+      <path d="M 10,95 L 45,95 L 55,75 L 75,125 L 95,20 L 115,160 L 130,70 L 145,95 L 180,95 L 195,75 L 210,120 L 225,95 L 360,95" 
+            fill="none" stroke="#00A79D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Bottom ECG line under Mart -->
+      <path d="M 50,185 L 85,185 L 98,165 L 115,225 L 135,115 L 155,255 L 170,165 L 185,185 L 300,185" 
+            fill="none" stroke="#00A79D" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Text: Medical -->
+      <text x="155" y="110" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-size="78" font-weight="800" fill="#00A79D" letter-spacing="-1">medical</text>
+      
+      <!-- Text: Mart -->
+      <text x="180" y="195" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-size="82" font-weight="800" fill="#00A79D" letter-spacing="-1">Mart</text>
+      
+      <!-- Registered Trademark -->
+      <circle cx="365" cy="148" r="9" fill="none" stroke="#00A79D" stroke-width="2.5"/>
+      <text x="365" y="152" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" font-weight="900" fill="#00A79D">R</text>
+    </g>
+  </svg>

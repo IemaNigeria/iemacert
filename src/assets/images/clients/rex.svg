@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="500" height="240">
+    <rect width="500" height="240" fill="#FFFFFF"/>
+    <g transform="translate(30, 45)">
+      <!-- Left Double Curved Wing / Arc Swooshes -->
+      <!-- Upper Orange Arc -->
+      <path d="M 10,65 C 40,15 105,15 135,65 C 120,65 100,38 72,38 C 45,38 25,65 10,65 Z" fill="#FF6600"/>
+      <!-- Lower Blue Arc -->
+      <path d="M 10,125 C 40,75 105,75 135,125 C 120,125 100,98 72,98 C 45,98 25,125 10,125 Z" fill="#0033CC"/>
+
+      <!-- Right: "rex" wordmark -->
+      <g transform="translate(160, 20)">
+        <text x="0" y="75" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-size="88" font-weight="900" fill="#0033CC" letter-spacing="-1">rex</text>
+        <text x="0" y="118" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#0033CC" letter-spacing="1">insurance</text>
+      </g>
+    </g>
+  </svg>

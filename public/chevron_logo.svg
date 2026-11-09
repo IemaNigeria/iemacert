@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+    <rect width="500" height="500" fill="#FFFFFF"/>
+    <!-- Top Wordmark: Chevron -->
+    <text x="250" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="#005BAA" text-anchor="middle" letter-spacing="-1">
+      Chevron
+    </text>
+
+    <g transform="translate(250, 200)">
+      <!-- Top Chevron Ribbon -->
+      <!-- Sky Blue Left Wing -->
+      <polygon points="-120,0 0,60 0,110 -120,50" fill="#00A3E0"/>
+      <!-- Royal Blue Right Wing -->
+      <polygon points="120,0 0,60 0,110 120,50" fill="#0066B2"/>
+
+      <!-- Lower Chevron Ribbon -->
+      <!-- Bright Red Left Wing -->
+      <polygon points="-120,70 0,130 0,180 -120,120" fill="#E31837"/>
+      <!-- Deep Red Right Wing -->
+      <polygon points="120,70 0,130 0,180 120,120" fill="#A6192E"/>
+    </g>
+  </svg>

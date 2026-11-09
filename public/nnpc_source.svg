@@ -1,0 +1,39 @@
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background is transparent or white -->
+  <g transform="translate(10, 0)">
+    <!-- Yellow Fold (Leftmost polygon) -->
+    <polygon 
+      points="90,190 130,150 130,285 90,320" 
+      fill="#E5C100" 
+    />
+    
+    <!-- Deep Olive/Forest Green Upper Polygon -->
+    <polygon 
+      points="130,150 255,188 255,320 130,285" 
+      fill="#1C663D" 
+    />
+    
+    <!-- Bright Vibrant Green Triangle (Front lower facet) -->
+    <polygon 
+      points="130,285 255,188 255,320" 
+      fill="#009A44" 
+    />
+    
+    <!-- Red Base Polygon -->
+    <polygon 
+      points="90,320 215,358 215,310 130,285" 
+      fill="#E30613" 
+    />
+
+    <!-- NNPC Typography Wordmark -->
+    <text 
+      x="268" 
+      y="320" 
+      font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" 
+      font-weight="900" 
+      font-size="64" 
+      letter-spacing="-1" 
+      fill="#595959"
+    >NNPC</text>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="100%" height="100%">
+  <!-- Exact reproduction of official NDPC Nigeria Data Protection Commission Logo -->
+  <defs>
+    <!-- Digital Matrix Pattern for Shield Background -->
+    <pattern id="binaryGrid" width="36" height="20" patternUnits="userSpaceOnUse">
+      <text x="2" y="8" fill="#00a859" font-family="'Courier New', monospace" font-size="6" font-weight="bold" opacity="0.45">1010</text>
+      <text x="18" y="8" fill="#00a859" font-family="'Courier New', monospace" font-size="6" font-weight="bold" opacity="0.45">0101</text>
+      <text x="2" y="16" fill="#00a859" font-family="'Courier New', monospace" font-size="6" font-weight="bold" opacity="0.45">0101</text>
+      <text x="18" y="16" fill="#00a859" font-family="'Courier New', monospace" font-size="6" font-weight="bold" opacity="0.45">1010</text>
+    </pattern>
+    <filter id="subtleDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Left: Security Shield Component -->
+  <g transform="translate(15, 10)" filter="url(#subtleDrop)">
+    <!-- Main Green Shield Outer Silhouette -->
+    <path d="M 68 8 C 98 16 126 32 128 72 C 130 120 88 156 68 178 C 48 156 6 120 8 72 C 10 32 38 16 68 8 Z" fill="#015934" stroke="#004024" stroke-width="1" />
+    
+    <!-- Matrix Code Overlay on Shield -->
+    <path d="M 68 8 C 98 16 126 32 128 72 C 130 120 88 156 68 178 C 48 156 6 120 8 72 C 10 32 38 16 68 8 Z" fill="url(#binaryGrid)" />
+
+    <!-- White Padlock Base with smooth curves -->
+    <path d="M 68 62 C 94 62 114 80 114 104 C 114 130 92 152 68 170 C 44 152 22 130 22 104 C 22 80 42 62 68 62 Z" fill="#FFFFFF" />
+
+    <!-- Keyhole at bottom of Padlock -->
+    <circle cx="68" cy="120" r="8" fill="#015934" />
+    <path d="M 64 122 L 72 122 L 75 146 L 61 146 Z" fill="#015934" />
+
+    <!-- Nigerian Coat of Arms in White Oval at Upper Center -->
+    <g transform="translate(68, 56) scale(0.48)">
+      <!-- Red Eagle atop Wreath -->
+      <path d="M 0 -44 C -6 -44 -12 -38 -12 -32 C -16 -32 -20 -26 -16 -20 C -12 -14 -6 -18 0 -18 C 6 -18 12 -14 16 -20 C 20 -26 16 -32 12 -32 C 12 -38 6 -44 0 -44 Z" fill="#E11D48" />
+      
+      <!-- Green/White/Green Torse Wreath -->
+      <rect x="-16" y="-18" width="10" height="5" fill="#008751" rx="1"/>
+      <rect x="-6" y="-18" width="12" height="5" fill="#FFFFFF" rx="1"/>
+      <rect x="6" y="-18" width="10" height="5" fill="#008751" rx="1"/>
+
+      <!-- Black Shield -->
+      <path d="M -16 -12 L 16 -12 C 16 10 0 20 0 20 C 0 20 -16 10 -16 -12 Z" fill="#0F172A" stroke="#008751" stroke-width="1.5" />
+      
+      <!-- Silver Pall (White Y shape) representing Niger and Benue rivers -->
+      <path d="M -12 -12 L -2 0 L -2 15 L 2 15 L 2 0 L 12 -12 L 8 -12 L 0 -2 L -8 -12 Z" fill="#FFFFFF" />
+
+      <!-- Left Rearing White Stallion -->
+      <g transform="translate(-20, 2)">
+        <path d="M 2 -22 C -6 -20 -12 -12 -8 0 C -4 8 2 14 6 16 C 4 10 2 2 4 -6 C 6 -12 8 -18 2 -22 Z" fill="#F8FAFC" stroke="#008751" stroke-width="1.2" />
+        <path d="M -6 -14 C -12 -10 -14 -4 -10 2" stroke="#E2E8F0" stroke-width="1.5" fill="none" />
+      </g>
+
+      <!-- Right Rearing White Stallion -->
+      <g transform="translate(20, 2)">
+        <path d="M -2 -22 C 6 -20 12 -12 8 0 C 4 8 -2 14 -6 16 C -4 10 -2 2 -4 -6 C -6 -12 -8 -18 -2 -22 Z" fill="#F8FAFC" stroke="#008751" stroke-width="1.2" />
+        <path d="M 6 -14 C 12 -10 14 -4 10 2" stroke="#E2E8F0" stroke-width="1.5" fill="none" />
+      </g>
+
+      <!-- Base with Yellow Wildflowers (Costus Spectabilis) -->
+      <ellipse cx="0" cy="22" rx="26" ry="4" fill="#EAB308" />
+      <path d="M -22 22 Q 0 26 22 22" stroke="#15803D" stroke-width="2" fill="none" />
+    </g>
+  </g>
+
+  <!-- Vertical Divider Line -->
+  <line x1="165" y1="35" x2="165" y2="160" stroke="#CBD5E1" stroke-width="2.2" stroke-linecap="round" />
+
+  <!-- Right Side: NDPC Typography and Full Subtitle -->
+  <g transform="translate(185, 0)">
+    <!-- NDPC Large Letters -->
+    <text x="0" y="104" fill="#015934" font-family="'Century Gothic', 'Tw Cen MT', 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="104" letter-spacing="-1">
+      NDPC
+    </text>
+
+    <!-- Dark Green Banner for Full Regulatory Name -->
+    <rect x="0" y="125" width="460" height="32" fill="#015934" rx="2" />
+    
+    <!-- White Crisp Subtitle inside Banner -->
+    <text x="230" y="146.5" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-weight="800" font-size="16.5" letter-spacing="1.2">
+      NIGERIA DATA PROTECTION COMMISSION
+    </text>
+  </g>
+</svg>

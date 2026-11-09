@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Circular Path for Upper Text: NIGERIA NATIONAL -->
+    <path id="upperArc" d="M 75,250 A 175,175 0 0,1 425,250" fill="none" />
+    
+    <!-- Circular Path for Lower Text: ACCREDITATION SYSTEM -->
+    <path id="lowerArc" d="M 425,250 A 175,175 0 0,1 75,250" fill="none" />
+  </defs>
+
+  <!-- Outer Green Background Circle -->
+  <circle cx="250" cy="250" r="240" fill="#008751" stroke="#005A36" stroke-width="3" />
+  
+  <!-- Outer White Concentric Ring -->
+  <circle cx="250" cy="250" r="230" fill="none" stroke="#FFFFFF" stroke-width="7" />
+  <circle cx="250" cy="250" r="222" fill="none" stroke="#FFFFFF" stroke-width="2" />
+
+  <!-- Inner Concentric White Ring -->
+  <circle cx="250" cy="250" r="140" fill="none" stroke="#FFFFFF" stroke-width="6" />
+
+  <!-- Nigerian Coat of Arms Graphic at Top -->
+  <g transform="translate(250, 78) scale(0.62)">
+    <!-- Wreath / Base -->
+    <path d="M -60,25 Q 0,35 60,25 Q 0,20 -60,25 Z" fill="#FFFFFF" />
+    <text x="0" y="27" font-family="'Arial', sans-serif" font-weight="bold" font-size="10" fill="#008751" text-anchor="middle">
+      UNITY AND FAITH, PEACE AND PROGRESS
+    </text>
+
+    <!-- Shield in Center -->
+    <path d="M -26,-22 L 26,-22 C 26,12 18,22 0,28 C -18,22 -26,12 -26,-22 Z" fill="#005A36" stroke="#FFFFFF" stroke-width="2.5" />
+    <!-- White Y-Shape (Pall) representing Rivers Niger and Benue -->
+    <path d="M -22,-20 L -6,-4 L -6,22 L 6,22 L 6,-4 L 22,-20 L 14,-20 L 0,-6 L -14,-20 Z" fill="#FFFFFF" />
+
+    <!-- Red Eagle at top -->
+    <g transform="translate(0, -32)">
+      <!-- Wreath under eagle -->
+      <rect x="-18" y="6" width="36" height="5" fill="#FFFFFF" rx="2" />
+      <path d="M -22,2 C -15,-16 0,-20 0,-20 C 0,-20 15,-16 22,2 C 14,-2 6,-2 0,2 C -6,-2 -14,-2 -22,2 Z" fill="#D32F2F" stroke="#FFFFFF" stroke-width="1.5" />
+    </g>
+
+    <!-- Left White Horse (Supporter) -->
+    <g transform="translate(-36, -2)">
+      <path d="M 6,18 C -10,16 -24,-2 -18,-18 C -16,-24 -6,-28 -2,-32 C -2,-26 -6,-18 2,-12 C 8,-8 10,2 6,18 Z" fill="#FFFFFF" stroke="#005A36" stroke-width="1.5" />
+      <!-- Legs -->
+      <path d="M -12,-6 L -24,4 L -20,8 L -10,0 Z" fill="#FFFFFF" />
+      <path d="M -6,14 L -12,28 L -8,28 L -2,16 Z" fill="#FFFFFF" />
+    </g>
+
+    <!-- Right White Horse (Supporter) -->
+    <g transform="translate(36, -2) scale(-1, 1)">
+      <path d="M 6,18 C -10,16 -24,-2 -18,-18 C -16,-24 -6,-28 -2,-32 C -2,-26 -6,-18 2,-12 C 8,-8 10,2 6,18 Z" fill="#FFFFFF" stroke="#005A36" stroke-width="1.5" />
+      <!-- Legs -->
+      <path d="M -12,-6 L -24,4 L -20,8 L -10,0 Z" fill="#FFFFFF" />
+      <path d="M -6,14 L -12,28 L -8,28 L -2,16 Z" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- Circular Arched Text: NIGERIA NATIONAL -->
+  <text fill="#FFFFFF" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="34" letter-spacing="4">
+    <textPath href="#upperArc" startOffset="50%" text-anchor="middle">
+      NIGERIA NATIONAL
+    </textPath>
+  </text>
+
+  <!-- Circular Arched Text: ACCREDITATION SYSTEM -->
+  <text fill="#FFFFFF" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="33" letter-spacing="4">
+    <textPath href="#lowerArc" startOffset="50%" text-anchor="middle">
+      ACCREDITATION SYSTEM
+    </textPath>
+  </text>
+
+  <!-- Inner White Disc -->
+  <circle cx="250" cy="250" r="132" fill="#FFFFFF" stroke="#008751" stroke-width="3" />
+
+  <!-- Center Text: NiNAS -->
+  <!-- N -->
+  <text x="250" y="278" text-anchor="middle" fill="#008751" font-family="'Montserrat', 'Arial Black', 'Helvetica Neue', sans-serif" font-weight="900" font-size="96" letter-spacing="-1">
+    NiNAS
+  </text>
+</svg>

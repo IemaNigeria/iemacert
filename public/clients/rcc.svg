@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" width="500" height="260">
+    <rect width="500" height="260" fill="#FFFFFF"/>
+    <g transform="translate(60, 40)">
+      <!-- Left Red Slanted Accent -->
+      <polygon points="35,0 75,0 35,175 -5,175" fill="#E31B23"/>
+      
+      <!-- Top Black Angled Bar -->
+      <polygon points="55,0 380,0 345,40 85,40" fill="#E31B23"/>
+      
+      <!-- Bottom/Right Heavy Black Slanted Frame -->
+      <polygon points="355,0 380,0 340,175 0,175 10,135 315,135 345,40 355,0" fill="#111111"/>
+
+      <!-- Inner White Background with RCC Text -->
+      <text x="180" y="118" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-style="italic" font-size="88" font-weight="900" fill="#111111" letter-spacing="4">RCC</text>
+    </g>
+  </svg>

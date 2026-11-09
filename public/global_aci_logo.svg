@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 250" width="100%" height="100%">
+  <!-- Global ACI Official Logo -->
+  <g fill="#002DB3">
+    <!-- Top-Left Arc Segment -->
+    <path d="M 132,38 A 82,82 0 0,0 48,122 L 68,122 A 62,62 0 0,1 132,58 Z" />
+    
+    <!-- Bottom Arc Segment -->
+    <path d="M 74,158 A 82,82 0 0,0 190,158 L 176,144 A 62,62 0 0,1 88,144 Z" />
+
+    <!-- Central Stylized Bold 'A' -->
+    <path d="M 124,52 L 62,192 L 92,192 L 105,158 L 159,158 L 172,192 L 202,192 L 140,52 Z M 132,88 L 151,136 L 113,136 Z" />
+
+    <!-- Word: Global -->
+    <text x="222" y="98" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="64" letter-spacing="-1.5">
+      Global
+    </text>
+
+    <!-- Word: ACI -->
+    <text x="222" y="186" font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="88" letter-spacing="1">
+      ACI
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+# ====================================================================
+# IEMA STANDARDS LIMITED (iemacert.com) Apache Server Configuration
+# ====================================================================
+
+# 1. Disable bare directory indexing (Fixes security issue of folder browsing)
+Options -Indexes
+
+# 2. Prevent access to hidden files and version control
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# 3. Rewrite Engine On
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ------------------------------------------------------------------
+  # A. Redirect iemastandards.com to official https://www.iemacert.com
+  # ------------------------------------------------------------------
+  RewriteCond %{HTTP_HOST} ^(www\.)?iemastandards\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.iemacert.com/$1 [R=301,L]
+
+  # Force HTTPS on iemacert.com
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP_HOST} ^(www\.)?iemacert\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.iemacert.com/$1 [R=301,L]
+
+  # ------------------------------------------------------------------
+  # B. 301 Redirects for Old Site URLs Indexed by Google
+  # ------------------------------------------------------------------
+  RewriteRule ^aboutus/?$ /about-us/ [R=301,L]
+  RewriteRule ^ourservices/?$ /certifications/ [R=301,L]
+  RewriteRule ^our-team/?$ /our-team/ [R=301,L]
+  RewriteRule ^contactus/?$ /contact-us/ [R=301,L]
+  RewriteRule ^certification/?$ /certifications/ [R=301,L]
+  RewriteRule ^solutions/?$ /certifications/ [R=301,L]
+  RewriteRule ^our-projects/?$ /projects/ [R=301,L]
+  RewriteRule ^data-protection-compliance/?$ /data-protection-compliance/ [R=301,L]
+
+  # Legacy standard shortcuts redirecting to descriptive target URLs
+  RewriteRule ^iso-9001/?$ /iso-9001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-14001/?$ /iso-14001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-45001/?$ /iso-45001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-27001/?$ /iso-27001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-22000/?$ /iso-22000-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-22301/?$ /iso-22301-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-37001/?$ /iso-37001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-50001/?$ /iso-50001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-13485/?$ /iso-13485-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-20000/?$ /iso-20000-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-29001/?$ /iso-29001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-41001/?$ /iso-41001-certification-nigeria/ [R=301,L]
+  RewriteRule ^iso-27701/?$ /iso-27701-certification-nigeria/ [R=301,L]
+  RewriteRule ^ecomark/?$ /ecomark-certification-scheme/ [R=301,L]
+  RewriteRule ^pci-dss/?$ /pci-dss-certification-nigeria/ [R=301,L]
+  RewriteRule ^testing-inspection/?$ /ndt-testing/ [R=301,L]
+  RewriteRule ^training/?$ /lead-auditor-training/ [R=301,L]
+  RewriteRule ^inspection/?$ /inspection-services/ [R=301,L]
+  RewriteRule ^environmental/?$ /environmental-consultancy-nigeria/ [R=301,L]
+
+  # ------------------------------------------------------------------
+  # C. 410 Gone for Old Theme Demo Shop Pages (Lords of Strategy)
+  # ------------------------------------------------------------------
+  RewriteRule ^product/.*$ - [G,L]
+
+  # ------------------------------------------------------------------
+  # D. React SPA Fallback: Route all non-file/dir requests to index.html
+  # ------------------------------------------------------------------
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+    <rect width="480" height="300" fill="#FFFFFF"/>
+    <g transform="translate(40, 50)">
+      <!-- Orange Halftone Sphere on Left -->
+      <defs>
+        <radialGradient id="ieiOrangeGrad" cx="35%" cy="35%" r="65%">
+          <stop offset="0%" stop-color="#FDBA74"/>
+          <stop offset="40%" stop-color="#FB923C"/>
+          <stop offset="80%" stop-color="#EA580C"/>
+          <stop offset="100%" stop-color="#C2410C"/>
+        </radialGradient>
+      </defs>
+      <circle cx="50" cy="50" r="42" fill="url(#ieiOrangeGrad)"/>
+      <!-- Grid of dots overlaying sphere for authentic halftone texture -->
+      <g fill="#FFFFFF" opacity="0.4">
+        <circle cx="35" cy="35" r="3.5"/>
+        <circle cx="48" cy="35" r="3"/>
+        <circle cx="61" cy="35" r="2.5"/>
+        <circle cx="35" cy="48" r="3"/>
+        <circle cx="48" cy="48" r="3.5"/>
+        <circle cx="61" cy="48" r="3"/>
+        <circle cx="35" cy="61" r="2.5"/>
+        <circle cx="48" cy="61" r="3"/>
+        <circle cx="61" cy="61" r="3.5"/>
+      </g>
+
+      <!-- Bold Navy "iei" Letterforms -->
+      <!-- First i/u curved pillar -->
+      <path d="M 120,85 C 120,50 150,50 180,50 C 210,50 210,85 210,130 C 210,175 120,175 120,130 Z" fill="#1B1464"/>
+      <path d="M 60,85 L 105,85 L 105,150 C 105,190 145,200 180,200 C 220,200 260,185 260,135 L 260,85 L 215,85 L 215,135 C 215,160 195,165 180,165 C 160,165 150,155 150,135 L 150,85 Z" fill="#1B1464"/>
+      
+      <!-- Right vertical pillars -->
+      <rect x="295" y="85" width="40" height="115" rx="4" fill="#1B1464"/>
+      <rect x="375" y="85" width="40" height="115" rx="4" fill="#1B1464"/>
+
+      <!-- Tagline: A nörrenberger company -->
+      <text x="390" y="235" text-anchor="end" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#991B1B">A nörrenberger company</text>
+    </g>
+  </svg>

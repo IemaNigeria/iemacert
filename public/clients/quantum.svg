@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 280" width="500" height="280">
+    <rect width="500" height="280" fill="#FFFFFF"/>
+    <g transform="translate(250, 85)">
+      <!-- Interlocking Loops: Red Loop Left, Blue Loop Right -->
+      <!-- Red Loop (Q) -->
+      <rect x="-105" y="-60" width="85" height="85" rx="8" fill="none" stroke="#E31B23" stroke-width="20"/>
+      <!-- Blue Loop (S) -->
+      <rect x="-45" y="-60" width="85" height="85" rx="8" fill="none" stroke="#1A365D" stroke-width="20"/>
+      
+      <!-- Interlocking overlay effect -->
+      <path d="M -20,-60 L 25,-60 L 25,-10" stroke="#1A365D" stroke-width="20" fill="none"/>
+    </g>
+
+    <!-- QUANTUM Wordmark -->
+    <text x="250" y="180" text-anchor="middle" font-family="'Inter', 'Montserrat', -apple-system, sans-serif" font-size="64" font-weight="900" fill="#E31B23" letter-spacing="5">QUANTUM</text>
+
+    <!-- STEELS NIGERIA LIMITED Subtitle -->
+    <text x="250" y="222" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="20" font-weight="900" fill="#1A365D" letter-spacing="3.5">STEELS NIGERIA LIMITED</text>
+
+    <!-- Horizontal Bottom Line -->
+    <line x1="30" y1="245" x2="250" y2="245" stroke="#E31B23" stroke-width="3"/>
+    <line x1="250" y1="245" x2="470" y2="245" stroke="#1A365D" stroke-width="3"/>
+  </svg>

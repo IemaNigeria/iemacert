@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+    <rect width="600" height="300" fill="#FFFFFF"/>
+    <g transform="translate(60, 60)">
+      <!-- Pecten Scallop Shell Emblem -->
+      <g transform="translate(60, 80)">
+        <!-- Outer Red Perimeter Shape -->
+        <path d="M 0,-65 C 38,-65 65,-40 68,0 C 70,30 45,60 25,65 L -25,65 C -45,60 -70,30 -68,0 C -65,-40 -38,-65 0,-65 Z" fill="#FB0000" />
+        
+        <!-- Yellow Shell Body & Ribs -->
+        <path d="M 0,-56 C 32,-56 56,-34 58,0 C 60,26 38,52 20,56 L -20,56 C -38,52 -60,26 -58,0 C -56,-34 -32,-56 0,-56 Z" fill="#FFD500"/>
+        
+        <!-- 7 Radiating Red Grooves -->
+        <line x1="0" y1="56" x2="0" y2="-56" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="22" y2="-52" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="-22" y2="-52" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="42" y2="-38" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="-42" y2="-38" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="54" y2="-12" stroke="#FB0000" stroke-width="5"/>
+        <line x1="0" y1="56" x2="-54" y2="-12" stroke="#FB0000" stroke-width="5"/>
+        
+        <!-- Red Base Bar -->
+        <rect x="-24" y="56" width="48" height="10" rx="3" fill="#FB0000"/>
+      </g>
+
+      <!-- Shell Typography on Right -->
+      <g transform="translate(170, 40)">
+        <text x="0" y="85" font-family="system-ui, -apple-system, sans-serif" font-size="115" font-weight="900" fill="#FB0000" letter-spacing="-2">Shell</text>
+      </g>
+    </g>
+  </svg>

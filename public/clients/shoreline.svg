@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 360" width="450" height="360">
+    <rect width="450" height="360" fill="#FFFFFF"/>
+    <g transform="translate(35, 30)">
+      <!-- SHORELINE Heading -->
+      <text x="190" y="45" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="44" font-weight="900" fill="#111111" letter-spacing="5">SHORELINE</text>
+
+      <!-- Water Waves at Top -->
+      <path d="M 10,75 C 60,65 100,85 150,75 C 190,65 210,80 220,78 M 240,78 C 255,80 280,65 320,75 C 350,82 370,75 380,75" 
+            fill="none" stroke="#004B9B" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 10,95 C 60,85 100,105 150,95 C 190,85 210,100 220,98 M 240,98 C 255,100 280,85 320,95 C 350,102 370,95 380,95" 
+            fill="none" stroke="#004B9B" stroke-width="6" stroke-linecap="round"/>
+
+      <!-- 5 Subterranean Strata Layer Bands with central fault divide -->
+      <!-- Layer 1 -->
+      <path d="M 10,120 L 215,120 M 235,120 L 380,120" stroke="#004B9B" stroke-width="8" stroke-linecap="round"/>
+      <!-- Layer 2 -->
+      <path d="M 10,145 L 215,145 M 235,145 L 380,145" stroke="#004B9B" stroke-width="9" stroke-linecap="round"/>
+      <!-- Layer 3 -->
+      <path d="M 10,172 L 205,172 L 215,166 M 235,166 L 245,172 L 380,172" stroke="#004B9B" stroke-width="11" stroke-linecap="round"/>
+      <!-- Layer 4 -->
+      <path d="M 10,202 L 205,202 L 215,194 M 235,194 L 245,202 L 380,202" stroke="#004B9B" stroke-width="13" stroke-linecap="round"/>
+      <!-- Layer 5 -->
+      <path d="M 10,235 L 205,235 L 215,225 M 235,225 L 245,235 L 380,235" stroke="#004B9B" stroke-width="15" stroke-linecap="round"/>
+
+      <!-- Natural Resources Bar -->
+      <rect x="10" y="255" width="370" height="48" rx="4" fill="#004B9B"/>
+      <text x="195" y="288" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" letter-spacing="1.5">Natural Resources</text>
+    </g>
+  </svg>

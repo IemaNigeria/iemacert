@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+    <rect width="500" height="500" fill="#FFFFFF"/>
+    <g transform="translate(250, 210)">
+      <!-- Outer Orbiting Ellipse Ring -->
+      <ellipse cx="0" cy="0" rx="140" ry="50" fill="none" stroke="#0C529C" stroke-width="6" transform="rotate(-15)"/>
+      
+      <!-- Central Blue Globe Sphere -->
+      <circle cx="0" cy="0" r="95" fill="#0C529C" />
+      
+      <!-- White Cutouts to Form Distinctive Bold "ASTM" Lettering in Globe -->
+      <!-- A -->
+      <polygon points="-70,55 -55,-60 -40,55 -48,55 -55,0 -62,55" fill="#FFFFFF"/>
+      <!-- S -->
+      <path d="M -15,-60 L 15,-60 L 15,-42 L -3,-42 L -3,-12 L 15,-12 L 15,55 L -15,55 L -15,35 L 3,35 L 3,6 L -15,6 Z" fill="#FFFFFF"/>
+      <!-- T -->
+      <polygon points="20,-60 60,-60 60,-42 46,-42 46,55 34,55 34,-42 20,-42" fill="#FFFFFF"/>
+      <!-- M -->
+      <polygon points="65,-60 76,-60 84,-20 92,-60 103,-60 103,55 94,55 94,-10 88,20 80,20 74,-10 74,55 65,55" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Horizontal Divider Line -->
+    <line x1="120" y1="340" x2="380" y2="340" stroke="#0C529C" stroke-width="4"/>
+
+    <!-- Text 1: INTERNATIONAL -->
+    <text x="250" y="380" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#0C529C" text-anchor="middle" letter-spacing="1.5">
+      INTERNATIONAL
+    </text>
+
+    <!-- Text 2: Standards Worldwide -->
+    <text x="250" y="420" font-family="Georgia, serif" font-size="22" font-style="italic" fill="#0C529C" text-anchor="middle" letter-spacing="1">
+      Standards Worldwide
+    </text>
+  </svg>
